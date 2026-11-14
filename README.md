@@ -1,5 +1,7 @@
 # 課後十分鐘
 
+[直接看網站](https://after-class-ten-notes.workspace-047783.chatgpt.site) · [GitHub 專案](https://github.com/Zoyan01/after-class-notes-course) · [AI 協作規則](./AGENTS.md)
+
 把生成式 AI 課程中容易忘記的觀念，整理成下課後看得懂的小筆記。
 
 我想練習的不只是做出一個網頁，而是把新增內容的方法也留下來。先約好段落、資料欄位和檔案位置，下一次請 AI 協助寫筆記時，就不用再從零交代一次。
