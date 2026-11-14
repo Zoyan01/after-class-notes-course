@@ -1,6 +1,6 @@
 # 課後十分鐘
 
-[直接看網站](https://after-class-ten-notes.workspace-047783.chatgpt.site) · [GitHub 專案](https://github.com/Zoyan01/after-class-notes-course) · [AI 協作規則](./AGENTS.md)
+[直接看網站](https://zoyan01.github.io/after-class-notes-course) · [GitHub 專案](https://github.com/Zoyan01/after-class-notes-course) · [AI 協作規則](./AGENTS.md)
 
 把生成式 AI 課程中容易忘記的觀念，整理成下課後看得懂的小筆記。
 
@@ -40,13 +40,15 @@ node scripts/serve.mjs
 
 ## GitHub Pages 發布
 
-1. 建立名為 after-class-notes 的 public Repository。
+本站已設定以 main 分支根目錄發布。之後新增筆記並推送到 main，GitHub Pages 會自動更新。正式網址：https://zoyan01.github.io/after-class-notes-course/
+
+1. 本專案的 public Repository 為 after-class-notes-course。若另做新專案，可自行選擇名稱。
 2. 上傳本資料夾內的完整檔案到 Repository 根目錄，包含 AGENTS.md、assets/、content/、.nojekyll 等。不要把最外層 after-class-notes 資料夾再包進去。
 3. 進入 Settings → Pages，Source 選 Deploy from a branch，Branch 選 main、/(root)，然後儲存。
 4. 等待部署完成後，開啟 Pages 提供的實際網址，測試首頁和文章。
 5. 分別記下 Repository 連結與網站連結，用來繳交。
 
-不需要提交 dist/，GitHub Pages 可以直接讀取根目錄的靜態網頁；若用 Sites 發布，則由 scripts/build.mjs 產生 dist/。公開網址應以部署成功的結果為準。
+不需要提交 dist/，GitHub Pages 直接讀取根目錄的靜態網頁。dist/ 由 scripts/build.mjs 產生，供本機預覽使用。公開網址應以部署成功的結果為準。
 
 官方說明：[建立 GitHub Pages 網站](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)。
 

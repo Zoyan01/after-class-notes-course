@@ -84,7 +84,7 @@ dist/                      自動產生的網站，不要直接編輯
 
 ## 7. 發布與資料邊界
 
-- GitHub Pages 可直接使用 main 分支的根目錄；保留 .nojekyll。Sites 則使用 dist/。
+- 本站正式發布到 GitHub Pages，來源為 main 分支的根目錄；保留 .nojekyll。推送到 main 後等部署成功，再核對公開網址；dist/ 只供本機預覽。
 - dist/ 是可重建的產物；修改來源後必須重新建置。
 - 不把帳號憑證、token、.env、個資或暫存檔提交到 GitHub。
 - 不能把本機預覽網址說成公開網址，也不能捏造 GitHub Repository 或網站連結。
