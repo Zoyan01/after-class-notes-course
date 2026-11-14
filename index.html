@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>課後十分鐘｜AI 學習筆記</title>
+  <meta name="description" content="把生成式 AI 課堂裡容易忘記的觀念，寫成下課後看得懂的小筆記。">
+  <meta name="theme-color" content="#f7f5ef">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./assets/styles.css">
+  <script src="./content/notes.js" defer></script><script src="./assets/app.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="site-header"><div class="shell header-inner">
+    <a class="brand" href="./index.html" aria-label="課後十分鐘首頁"><span class="brand-icon" aria-hidden="true">10<span>′</span></span><span>課後十分鐘<span class="brand-sub">AFTER CLASS NOTES</span></span></a>
+    <nav aria-label="主要導覽"><a href="./index.html#notes" aria-current="page">所有筆記</a><a href="./rules.html">新增筆記規則</a><a href="./about.html">關於這裡</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-copy"><p class="eyebrow"><span class="small-dot"></span> 一個大學生的 AI 學習備忘錄</p>
+        <h1>上課先聽懂，<br>下課<span class="underlined">慢慢補。</span></h1>
+        <p class="hero-description">有些觀念，當下懂了，隔天又忘了。<br>把它寫成短短一篇，下次用到就不用從頭找。</p>
+        <div class="hero-actions"><a class="button primary" href="#notes">翻開我的筆記 <span aria-hidden="true">↗</span></a><span class="small-note">一篇三到五分鐘，慢慢累積。</span></div>
+      </div>
+      <div class="hero-art"><img src="./assets/notebook.svg" width="540" height="410" alt="手寫筆記插圖：一個問題、三個重點、一個例子，整理成下次用得上的小筆記。"></div>
+    </section>
+    <div class="note-strip"><div class="shell strip-inner"><p><span class="spark" aria-hidden="true">✳</span> 不一定一次就會，但可以每次多懂一點。</p><span>記下來，也留給下次的自己。</span></div></div>
+    <section class="notes-section shell" id="notes" aria-labelledby="notes-heading">
+      <div class="section-heading"><div><p class="eyebrow">THE NOTEBOOK</p><h2 id="notes-heading">最近整理的筆記<span id="total-count" class="count"></span></h2></div><p>從怎麼提問，到把小作品放上網。</p></div>
+      <div class="tools-bar"><div class="filters" role="group" aria-label="依分類篩選"><button class="filter active" type="button" data-category="全部" aria-pressed="true">全部筆記</button><button class="filter" type="button" data-category="提示詞" aria-pressed="false">提示詞</button><button class="filter" type="button" data-category="觀念整理" aria-pressed="false">觀念整理</button><button class="filter" type="button" data-category="動手做" aria-pressed="false">動手做</button></div>
+        <label class="search-box"><span aria-hidden="true">⌕</span><span class="visually-hidden">搜尋筆記</span><input id="search" type="search" placeholder="找一個關鍵字…" autocomplete="off"></label></div>
+      <p class="search-status" id="search-status" aria-live="polite"></p>
+      <div class="notes-grid" id="notes-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">⌕</span><h3>這頁還是空白的。</h3><p>換個關鍵字試試，或回到全部筆記。</p><button class="button secondary" id="reset-search" type="button">清除搜尋與分類</button></div>
+      <noscript><p>搜尋功能需要 JavaScript。你仍可閱讀<a href="./rules.html">新增筆記規則</a>與<a href="./about.html">網站介紹</a>。</p></noscript>
+    </section>
+    <section class="extension shell"><div class="extension-symbol" aria-hidden="true">＋</div><div><p class="eyebrow">留一個位置，給下一篇</p><h2>寫完一篇，下一篇就有方法。</h2><p>段落、檔名、語氣先約好。之後新增內容，就不用每次重做一個網站。</p></div><a class="text-link" href="./rules.html">看看我的新增規則 <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer shell"><a class="footer-name" href="./index.html">課後十分鐘 <span>10 minutes, one small idea.</span></a><p>生成式 AI 課程・學習筆記小專案</p><a href="./AGENTS.md">讀取 AGENTS.md ↗</a></footer>
+</body></html>
